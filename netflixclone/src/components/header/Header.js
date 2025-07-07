@@ -1,6 +1,8 @@
 import React from 'react'
 import "./header.css"
 import Netflix_logo from "../../assets/images/Netflix_logo.svg"
+import abika_logo from "../../assets/images/abika_logo.png"
+
 import SearchIcon from '@mui/icons-material/Search';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';

@@ -11,9 +11,9 @@
 }
 
 .first, .second, .third, .forth {
-    width: 150px;
+    width: 160px;
     height: 200px;
-    margin: 0 80px; /* Adds horizontal spacing between items */
+    margin: 0 70px; /* Adds horizontal spacing between items */
 }
 
 
