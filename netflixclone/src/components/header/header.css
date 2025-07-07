@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header_outer_container {
+  width: 100%;
+  background-color: #111;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.header_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_left ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.header_left ul li {
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.header_left ul li:hover {
+  color: #e50914;
+}
+
+.header_left ul li:first-child {
+  color: #e50914;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.header_left ul li:first-child:hover {
+  color: #fff;
+}
+
+.net_logo {
+  height: 30px;
+}
+
+
+.header_right ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header_right ul li {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.header_right ul li:hover {
+  transform: scale(1.1);
+}
+
+/* Style the icons */
+.icon {
+  color: white;
+  font-size: 24px;
+}

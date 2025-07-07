@@ -1,0 +1,48 @@
+.footer_outer_container{
+    margin-top: 100px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first, .second, .third, .forth {
+    width: 150px;
+    height: 200px;
+    margin: 0 80px; /* Adds horizontal spacing between items */
+}
+
+
+.icon_cont{
+    display: flex;
+    justify-content: space-between;
+}
+.icon {
+  color: white;
+  font-size: 24px;
+}
+
+.first_data{
+    margin-top: 5px;
+}
+.first_lists{
+    list-style: none;
+    color: white;
+    line-height: 30px;
+}
+.first_lists a {
+    color: white; 
+    text-decoration: none; 
+    border: none; 
+}
+.first_lists a:hover{
+    border: 1px solid white;
+}
+
+.second_data,.third_data,.fourth_data{
+    margin-top: 30px;
+}
